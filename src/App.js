@@ -235,15 +235,15 @@ export default function App() {
               
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-zinc-300 mr-3 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mr-3 flex-shrink-0" />
                   <span>Custom-Trained AI Assistant</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-zinc-300 mr-3 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mr-3 flex-shrink-0" />
                   <span>Instant Missed Call Text-Back</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-zinc-300 mr-3 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mr-3 flex-shrink-0" />
                   <span>Lead Summary Email Notifications</span>
                 </li>
                 <li className="flex items-center text-zinc-100 font-semibold">
