@@ -30,7 +30,7 @@ export default function App() {
               <a href="#pricing" className="text-zinc-600 hover:text-black font-medium transition-colors">Pricing</a>
             </div>
             <div className="flex items-center">
-              <a href="#contact" className="bg-black text-white px-6 py-2.5 rounded-full font-bold hover:bg-zinc-800 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+              <a href="#contact" className="bg-emerald-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-emerald-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
                 Start 14-Day Free Trial
               </a>
             </div>
@@ -45,8 +45,8 @@ export default function App() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center space-x-2 bg-zinc-800/50 rounded-full px-4 py-1.5 mb-8 border border-zinc-700">
               <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-zinc-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-zinc-300"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
               <span className="text-sm font-semibold text-zinc-300 tracking-wide uppercase">America's Premier Call Capture Agency</span>
             </div>
@@ -57,12 +57,12 @@ export default function App() {
               When you're under a sink, you can't answer the phone. Our AI instantly texts back missed calls, answers questions, and books the job before they call your competitor.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <a href="#contact" className="w-full sm:w-auto bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-zinc-200 transition-all flex items-center justify-center group shadow-xl shadow-zinc-900/50">
+              <a href="#contact" className="w-full sm:w-auto bg-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-emerald-500 transition-all flex items-center justify-center group shadow-xl shadow-emerald-900/20">
                 Claim Your Free Trial
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <div className="flex items-center text-zinc-400 text-sm">
-                <ShieldCheck className="h-5 w-5 mr-2 text-zinc-300" />
+                <ShieldCheck className="h-5 w-5 mr-2 text-emerald-400" />
                 No credit card required for trial
               </div>
             </div>
@@ -79,23 +79,23 @@ export default function App() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-zinc-300 hover:shadow-md">
-              <div className="bg-zinc-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <PhoneMissed className="h-8 w-8 text-zinc-800" />
+            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-red-200 hover:shadow-md">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <PhoneMissed className="h-8 w-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">The Missed Call</h3>
               <p className="text-zinc-600">You're busy on a job site. A homeowner with a burst pipe calls, but you can't get to the phone.</p>
             </div>
-            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-zinc-300 hover:shadow-md">
-              <div className="bg-zinc-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <ArrowRight className="h-8 w-8 text-zinc-800" />
+            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-red-200 hover:shadow-md">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <ArrowRight className="h-8 w-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">The Hang Up</h3>
               <p className="text-zinc-600">They hear your voicemail greeting and immediately hang up. It's an emergency, they need an answer now.</p>
             </div>
-            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-zinc-300 hover:shadow-md">
-              <div className="bg-zinc-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <TrendingUp className="h-8 w-8 text-zinc-800" />
+            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-200 text-center transition-all hover:border-red-200 hover:shadow-md">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <TrendingUp className="h-8 w-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Lost Revenue</h3>
               <p className="text-zinc-600">They call your competitor who answers. You just lost a $1,500+ job because you were doing your job.</p>
@@ -187,7 +187,7 @@ export default function App() {
                 {/* Chat Body */}
                 <div className="bg-zinc-50 h-full p-4 space-y-4 pt-6">
                   <div className="flex justify-end">
-                    <div className="bg-black text-white rounded-2xl rounded-tr-sm px-4 py-2 text-sm max-w-[80%] shadow-sm">
+                    <div className="bg-blue-500 text-white rounded-2xl rounded-tr-sm px-4 py-2 text-sm max-w-[80%] shadow-sm">
                       Hey this is the automated assistant for Local Plumbing. We saw we just missed your call! I'm under a sink right now, but how can we help?
                     </div>
                   </div>
@@ -197,7 +197,7 @@ export default function App() {
                     </div>
                   </div>
                   <div className="flex justify-end">
-                    <div className="bg-black text-white rounded-2xl rounded-tr-sm px-4 py-2 text-sm max-w-[80%] shadow-sm">
+                    <div className="bg-blue-500 text-white rounded-2xl rounded-tr-sm px-4 py-2 text-sm max-w-[80%] shadow-sm">
                       Yes we do! Go ahead and shut off the main water valve if you can. What is your home address? I'll have the owner call you the second he is free.
                     </div>
                   </div>
@@ -247,12 +247,12 @@ export default function App() {
                   <span>Lead Summary Email Notifications</span>
                 </li>
                 <li className="flex items-center text-zinc-100 font-semibold">
-                  <CheckCircle className="h-5 w-5 text-white mr-3 flex-shrink-0" />
+                  <CheckCircle className="h-5 w-5 text-emerald-400 mr-3 flex-shrink-0" />
                   <span>$500 Setup Fee Waived (Limited Time)</span>
                 </li>
               </ul>
               
-              <a href="#contact" className="block w-full bg-white hover:bg-zinc-200 text-black text-center font-bold py-4 rounded-xl transition-colors shadow-lg">
+              <a href="#contact" className="block w-full bg-emerald-600 hover:bg-emerald-500 text-white text-center font-bold py-4 rounded-xl transition-colors shadow-lg">
                 Start 14-Day Free Trial
               </a>
               <p className="text-center text-sm text-zinc-500 mt-4">No long-term contracts. Cancel anytime.</p>
@@ -282,7 +282,7 @@ export default function App() {
                 <label className="block text-sm font-medium text-zinc-700 mb-1">Cell Phone</label>
                 <input type="tel" name="phone" required className="w-full border border-zinc-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-black focus:border-transparent outline-none" placeholder="(555) 123-4567" />
               </div>
-              <button type="submit" className="w-full bg-black text-white font-bold py-3 rounded-lg hover:bg-zinc-800 transition-colors mt-4 shadow-md">
+              <button type="submit" className="w-full bg-emerald-600 text-white font-bold py-3 rounded-lg hover:bg-emerald-700 transition-colors mt-4 shadow-md">
                 Get My Free Trial
               </button>
             </form>
@@ -291,17 +291,4 @@ export default function App() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-black text-zinc-500 py-12 border-t border-zinc-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <Hexagon className="h-6 w-6 text-white fill-white" />
-            <span className="font-bold text-xl text-white">Lone Star Systems</span>
-          </div>
-          <div className="text-sm">
-            &copy; {new Date().getFullYear()} Lone Star Systems. Proudly serving the USA.
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-} 
+      <footer className="bg-black text-zinc-5
