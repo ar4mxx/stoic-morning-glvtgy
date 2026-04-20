@@ -18,10 +18,11 @@ export default function App() {
             
             {/* Logo Section */}
             <div className="flex items-center space-x-3">
-              {/* LOGO PLACEHOLDER: Replace the div below with an <img src="..." /> tag once you have your logo hosted */}
-              <div className="flex items-center justify-center w-10 h-10 rounded border-2 border-black bg-black text-white font-bold text-[10px] tracking-widest">
-                LSS
-              </div>
+              <img 
+                src="http://googleusercontent.com/image_generation_content/2" 
+                alt="Lone Star Systems Logo" 
+                className="h-10 w-10 object-contain mix-blend-multiply" 
+              />
               <span className="font-extrabold text-2xl tracking-tight text-black">
                 Lone Star <span className="text-zinc-500 font-light">Systems</span>
               </span>
@@ -297,9 +298,11 @@ export default function App() {
       <footer className="bg-black text-zinc-500 py-12 border-t border-zinc-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <div className="flex items-center justify-center w-6 h-6 rounded border border-zinc-500 text-zinc-400 font-bold text-[8px]">
-              LSS
-            </div>
+            <img 
+              src="http://googleusercontent.com/image_generation_content/2" 
+              alt="Lone Star Systems Logo" 
+              className="h-8 w-8 object-contain invert opacity-75" 
+            />
             <span className="font-bold text-xl text-white">Lone Star Systems</span>
           </div>
           <div className="text-sm">
