@@ -244,39 +244,10 @@ export default function App() {
           
           <div className="bg-white rounded-2xl p-8 max-w-md mx-auto shadow-2xl">
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Request a Demo</h3>
-            <form className="space-y-4 text-left">
+            <form action="https://formspree.io/f/mqewdzov" method="POST" className="space-y-4 text-left">
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">Your Name</label>
-                <input type="text" className="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" placeholder="John Doe" />
+                <input type="text" name="name" required className="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" placeholder="John Doe" />
               </div>
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-1">Company Name</label>
-                <input type="text" className="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" placeholder="John's Plumbing" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-1">Cell Phone</label>
-                <input type="tel" className="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" placeholder="(555) 123-4567" />
-              </div>
-              <button type="button" className="w-full bg-slate-900 text-white font-bold py-3 rounded-lg hover:bg-slate-800 transition-colors mt-4">
-                Get My Free Trial
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <Zap className="h-6 w-6 text-blue-500" />
-            <span className="font-bold text-xl text-white">Lone Star Systems</span>
-          </div>
-          <div className="text-sm">
-            &copy; {new Date().getFullYear()} Lone Star Systems. Based in Dallas, TX.
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+                <label className="block text-sm font-medium text-slate
