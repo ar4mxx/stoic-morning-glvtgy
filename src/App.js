@@ -19,7 +19,7 @@ export default function App() {
             {/* Logo Section */}
             <div className="flex items-center space-x-3">
               <img 
-                src="http://googleusercontent.com/image_generation_content/2" 
+                src="/logo.png" 
                 alt="Lone Star Systems Logo" 
                 className="h-10 w-10 object-contain mix-blend-multiply" 
               />
@@ -299,7 +299,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <img 
-              src="http://googleusercontent.com/image_generation_content/2" 
+              src="/logo.png" 
               alt="Lone Star Systems Logo" 
               className="h-8 w-8 object-contain invert opacity-75" 
             />
