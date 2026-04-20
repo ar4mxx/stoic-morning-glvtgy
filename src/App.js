@@ -1,5 +1,5 @@
 import React from 'react';
-import { PhoneMissed, ArrowRight, CheckCircle, ShieldCheck, TrendingUp } from 'lucide-react';
+import { PhoneMissed, ArrowRight, CheckCircle, ShieldCheck, TrendingUp, Hexagon } from 'lucide-react';
 
 export default function App() {
   return (
@@ -18,11 +18,7 @@ export default function App() {
             
             {/* Logo Section */}
             <div className="flex items-center space-x-3">
-              <img 
-                src="/logo.png" 
-                alt="Lone Star Systems Logo" 
-                className="h-10 w-10 object-contain mix-blend-multiply" 
-              />
+              <Hexagon className="h-10 w-10 text-black fill-black" />
               <span className="font-extrabold text-2xl tracking-tight text-black">
                 Lone Star <span className="text-zinc-500 font-light">Systems</span>
               </span>
@@ -280,36 +276,4 @@ export default function App() {
               </div>
               <div>
                 <label className="block text-sm font-medium text-zinc-700 mb-1">Company Name</label>
-                <input type="text" name="company" required className="w-full border border-zinc-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-black focus:border-transparent outline-none" placeholder="John's Plumbing" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-zinc-700 mb-1">Cell Phone</label>
-                <input type="tel" name="phone" required className="w-full border border-zinc-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-black focus:border-transparent outline-none" placeholder="(555) 123-4567" />
-              </div>
-              <button type="submit" className="w-full bg-black text-white font-bold py-3 rounded-lg hover:bg-zinc-800 transition-colors mt-4 shadow-md">
-                Get My Free Trial
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-black text-zinc-500 py-12 border-t border-zinc-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <img 
-              src="/logo.png" 
-              alt="Lone Star Systems Logo" 
-              className="h-8 w-8 object-contain invert opacity-75" 
-            />
-            <span className="font-bold text-xl text-white">Lone Star Systems</span>
-          </div>
-          <div className="text-sm">
-            &copy; {new Date().getFullYear()} Lone Star Systems. Proudly serving the USA.
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+                <input type="text" name="
