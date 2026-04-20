@@ -291,4 +291,17 @@ export default function App() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-black text-zinc-5
+      <footer className="bg-black text-zinc-500 py-12 border-t border-zinc-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+          <div className="flex items-center space-x-2 mb-4 md:mb-0">
+            <Hexagon className="h-6 w-6 text-white fill-white" />
+            <span className="font-bold text-xl text-white">Lone Star Systems</span>
+          </div>
+          <div className="text-sm">
+            &copy; {new Date().getFullYear()} Lone Star Systems. Proudly serving the USA.
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
